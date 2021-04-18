@@ -37,7 +37,7 @@ o	Chi statistic is calculated and stored
 
 •	As a start, The cipher text could be decrypted using the shifts found to have minimum chi value.
 
-Step 5) Decryptinh the key
+Step 5) Decrypting the key
 
 When the key is known, The key would keep repeating until the cipher text finishes. Every character of the unprocessed cipher text 
 is examined. If the char is a punctuation, space, or a number, it is not encrypted and conserved. Its pushed back to the plain text as it is. If it is a an alphabet, it is decrypted using the key at that position.
